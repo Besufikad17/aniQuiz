@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "question": "Who is the author of vinland saga?",
+            "choices": [
+                "Yuki Tabata",
+                "Kentero Mirua",
+                "Makoto Yukimura",
+                "Takhiko Inoue"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Which of the following story arc is adopted in 1992 Hunter x Hunter anime?",
+            "choices": [
+                "Heavens Arena arc",
+                "Chimra Ant arc",
+                "Election arc",
+                "None"
+            ],
+            "answer": 1
+        }
+    ]
+}
