@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 // custom widgets
 import './home.dart';
+import './result.dart';
 
 void main() => runApp(AniQuiz());
 
@@ -29,6 +30,16 @@ class _AniQuizState extends State<AniQuiz> {
         "Takhiko Inoue"
       ],
       "answer": 3
+    },
+    {
+      "question": "Which of the following story arc is adopted in 1992 Hunter x Hunter anime?",
+      "choices": [
+        "Heavens Arena arc",
+        "Chimra Ant arc",
+        "Election arc",
+        "None"
+      ],
+      "answer": 1
     }
   ];
 
@@ -38,7 +49,7 @@ class _AniQuizState extends State<AniQuiz> {
       if(isCorrect){
         score++;
       }
-      if (index < questions.length) {
+      if (index < questions.length - 1) {
         index++;
       } else {
         finish = true;
@@ -60,18 +71,16 @@ class _AniQuizState extends State<AniQuiz> {
             backgroundColor: Color.fromRGBO(52, 209, 191, 1),
             title: Text('AniQuiz')),
         body: finish ? (
-        Center(
-          child: Text(score.toString()),
-        )
+          Result(score: score,)
         ) : (
             start
                 ? (Center(
               child: Column(children: [
-                ...((questions as List<Map>).map((q) => Quiz(
-                    question: q['question'],
-                    choice: q['choices'],
-                    answer: q['answer'],
-                    callbackHandler: (bool i) => _answer(i)))).toList(),
+                Quiz(
+                    question: questions [index]['question'] as String,
+                    choice: questions[index]['choices'] as List<String>,
+                    answer: questions[index]['answer'] as int,
+                    callbackHandler: (bool i) => _answer(i)),
               ]),
             ))
                 : (Home(
