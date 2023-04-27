@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:linkable/linkable.dart';
 
 // custom widget
 import 'components/button.dart';
@@ -43,7 +44,6 @@ class Result extends StatelessWidget {
             callBackHandler: callBackHandler,
           ),
           SizedBox(height: 200),
-          Text('v0.0.1')
           ]),
         )
     );

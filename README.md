@@ -25,9 +25,14 @@
    ```
 # Preview
 
-   **Home**
-   <img src="assets/images/screenshots/screenshot-2023-04-27_10.33.44.591.png">
-   **Question**
-   <img src="assets/images/screenshots/screenshot-2023-04-27_10.33.50.339.png">
-   **Result**
-   <img src="assets/images/screenshots/screenshot-2023-04-27_10.34.04.578.png">
+   ## Home
+
+   <img src="assets/images/screenshots/screenshot-2023-04-27_10.33.44.591.png" width="200px" height="400px">
+
+   ## Question
+
+   <img src="assets/images/screenshots/screenshot-2023-04-27_10.33.50.339.png" width="200px" height="400px">
+   
+   ## Result
+   
+   <img src="assets/images/screenshots/screenshot-2023-04-27_10.34.04.578.png" width="200px" height="400px">
