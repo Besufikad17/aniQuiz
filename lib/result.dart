@@ -42,6 +42,8 @@ class Result extends StatelessWidget {
             text: 'Retry',
             callBackHandler: callBackHandler,
           ),
+          SizedBox(height: 200),
+          Text('v0.0.1')
           ]),
         )
     );

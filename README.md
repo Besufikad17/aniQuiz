@@ -1,16 +1,33 @@
 # aniquiz
 
-A new Flutter project.
+ aniQuiz is a simple quiz app for weebs (anime and manga fans) made with flutter application.
 
-## Getting Started
+# Usage 
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+  Apk file of the latest build can be found in [release](https://github.com/Besufikad17/aniQuiz/releases/tag/v0.0.1) section.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Cloning the repo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+    git clone https://github.com/Besufikad17/aniQuiz.git && cd aniQuiz
+   ```
+2. Installing packages
+
+   ```bash
+    flutter pub get
+   ```
+3. Running the application
+
+   ```bash
+    flutter run
+   ```
+# Preview
+
+   **Home**
+   <img src="assets/images/screenshots/screenshot-2023-04-27_10.33.44.591.png">
+   **Question**
+   <img src="assets/images/screenshots/screenshot-2023-04-27_10.33.50.339.png">
+   **Result**
+   <img src="assets/images/screenshots/screenshot-2023-04-27_10.34.04.578.png">

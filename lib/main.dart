@@ -120,7 +120,7 @@ class _AniQuizState extends State<AniQuiz> {
         "Trigun and Neon Genesis Evangelion",
         "Spy x Family and Mushoku Tensei"
       ],
-      "answer": 2
+      "answer": 3
     }
   ];
 
